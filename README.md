@@ -92,7 +92,7 @@ The objective of this project is to demonstrate the integration of multiple STM3
 
 The figure below shows the complete hardware setup of the Smart Ambient Light Controlled RGB Lamp.
 
-![Hardware Setup](hardware_setup.jpg)
+![Hardware Setup](hardware_setup.jpeg)
 
 ---
 
