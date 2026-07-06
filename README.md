@@ -88,6 +88,22 @@ The objective of this project is to demonstrate the integration of multiple STM3
 
 ---
 
+## Hardware Setup
+
+The figure below shows the complete hardware setup of the Smart Ambient Light Controlled RGB Lamp.
+
+![Hardware Setup](hardware_setup.jpg)
+
+---
+
+## UART Output
+
+The UART terminal displays the real-time ADC reading, calculated PWM duty cycle, and the selected operating mode.
+
+![UART Output](uart_output.png)
+
+---
+
 ## Operating Modes
 
 | Mode | Description |
@@ -102,18 +118,6 @@ The objective of this project is to demonstrate the integration of multiple STM3
 ## Demonstration
 
 The system continuously monitors the ambient light intensity using an LDR and automatically adjusts the brightness of the RGB LED through PWM. The push button cycles through White, Red, Green, and Blue operating modes. Real-time ADC readings, PWM duty cycle, and the selected operating mode are displayed on the PC through UART.
-
----
-
-## UART Output Example
-
-```text
-ADC = 2356 Duty = 5754
-MODE: WHITE
-
-ADC = 1923 Duty = 4693
-MODE: RED
-```
 
 ---
 
